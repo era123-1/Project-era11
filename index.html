@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Search App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Video Search App</h1>
+    <form id="search-form">
+      <input type="text" id="search-input" placeholder="Search for video">
+      <button type="submit" id="search-button">Search</button>
+    </form>
+  </header>
+
+  <main>
+    <div class="search-results">
+      <!-- Këtu mund të shtoni rezultatet e videos sipas nevojave tuaja -->
+      <div class="search-result">
+        <iframe
+          width="100%"
+          height="315"
+          src="https://www.youtube.com/embed/Y8HIFRPU6pM"
+          frameborder="0"
+          allowfullscreen
+         
+        ></iframe>
+        <a href="https://www.youtube.com/watch?v=Y8HIFRPU6pM" target="_blank">Healthy Living</a>
+      </div>
+
+      <div class="search-result">
+        <iframe
+          width="100%"
+          height="315"
+          src="https://www.youtube.com/embed/YNsuneGBsMY"
+          frameborder="0"
+          allowfullscreen
+         
+        ></iframe>
+        <a href="https://www.youtube.com/watch?v=YNsuneGBsMY" target="_blank">Healthy Living</a>
+      </div>
+      <div class="search-result">
+        <iframe
+          width="100%"
+          height="315"
+          src="https://www.youtube.com/embed/XshYAUTvCUE"
+          frameborder="0"
+          allowfullscreen
+         
+        ></iframe>
+        <a href="https://www.youtube.com/watch?v=XshYAUTvCUE" target="_blank">Healthy Living</a>
+      </div>
+      <div class="search-result">
+        <iframe
+          width="100%"
+          height="315"
+          src="https://www.youtube.com/embed/6ajmuRg2o3Q"
+          frameborder="0"
+          allowfullscreen
+         
+        ></iframe>
+        <a href="https://www.youtube.com/watch?v=6ajmuRg2o3Q" target="_blank">Healthy Living</a>
+      </div>
+    </div>
+    
+    <button id="show-more-button">Show more</button>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
